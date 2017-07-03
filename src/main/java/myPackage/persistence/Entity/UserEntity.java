@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class UserEntity {
 
     @Id
-    private long id;
+    private Integer id;
 
     @Indexed(unique = true)
     private String domain;
